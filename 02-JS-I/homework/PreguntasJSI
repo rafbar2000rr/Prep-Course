@@ -1,0 +1,18 @@
+
+
+Variable: una variable es un espacio en la memoria de la computadora a la que se le asigna un valor que puede ser de varios tipos, ya sea número, string o boolean.
+
+String: una string es un tipo de dato con el que se supone que no se van a realizar operaciones aritméticas, sino que lo que me interesa es hallar propiedades tales como la longitud de una palabra. Por eso las strings son casi siempre palabras aunque también pueden ser códigos de alumnos o números de teléfono.
+var nombre ='jorge';
+
+Funciones: Una función es un bloque de código que se especializa en realizar una acción como puede ser imprimir un valor o también puede retornar un valor. Puede o no ser llamada usando argumentos, los que son asignados a sus parámetros. Una función puede o no tener una declaración return la que retorna un determinado valor que ha sido calculado por la función.
+
+If: se utiliza para que se ejecute un bloque de código si es que se cumple una determinada condición y se ejecutará otro bloque de código si es que no se cumple esa condición. Por ejemplo:
+if (x>0){
+	y++;
+}else{
+	y--;
+}
+En este ejemplo, si la variable x es mayor a cero, la variable y se incrementa en uno, y si no se cumple que x es mayor a cero, la variable y disminuye en uno.
+
+Valores booleanos true, false: los valores booleanos son true que significa verdadero y false que significa falso. Es el resultado de evaluar condiciones que pueden estar dadas por ejemplo en un operador if o while; o también los valores true o false se pueden asignar a variables de tipo boolean.
