@@ -1,0 +1,11 @@
+JSII
+
+for: es un operador que controla el flujo del código y se utiliza cuando se conoce el número de veces que se deben ejecutar las instrucciones en un bloque de código. Por ejemplo: for(var i = 0; i<10; i++) {  } va a hacer que las instrucciones entre las llaves se ejecuten 10 veces. Esto se debe a que la variable i al inicio toma el valor 0, se verifica si se cumple que i<10 y luego se ejecutan las instrucciones entre las llaves. Al terminar la primera iteración, se incrementa el valor de i en 1, entonces ahora i=1. Se verifica si i<10 y ya que se cumple, se ejecutan las instrucciones entre las llaves. Y así, sucesivamente hasta que la condición i<10 sea falsa en cuyo caso ya no se ejecutan las instrucciones entre las llaves.
+
+&&: es un operador lógico que significa 'y'.  Se utiliza para evaluar dos expresiones que se deben cumplir ambas a la vez, por lo que  toda la expresión va a ser verdadera sólo si las dos son verdaderas. Basta que una de las proposiciones sea falsa para que toda la expresión sea falsa. Por ejemplo: (7>2) && (3<10) es una expresión verdadera, ya que las dos expresiones son verdaderas.
+
+
+||: es un operador lógico que significa 'o'. Se utiliza para evaluar dos proposiciones, las cuales se debe cumplir una de ellas o ambas, por lo que si ambas son falsas, entonces toda la expresión va a ser falsa. Por ejemplo (1 === 13) || (10 > 20) es falso, ya que las dos proposiciones son falsas.
+
+
+!: es un operador lógico que significa 'no'. Se utiliza para negar una expresión. Por ejemplo, !(6 === 20) va a hacer que toda la expresión sea verdadera ya que está negando una expresión falsa que es 6 === 20.
