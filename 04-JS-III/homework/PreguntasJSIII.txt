@@ -1,0 +1,12 @@
+Preguntas JSIII
+
+
+Arrays: Un array es un arreglo, es decir un espacio de memoria en la computadora al igual que una variable, pero a diferencia que una variable permite almacenar un solo elemento 
+mientras que un array permite almacenar más de un elemento. Por ejemplo: var array = [87, 'casa', true] es un arreglo de tres elementos, donde el primer elemento siempre comienza
+en la posición cero. Por lo tanto array[0] = 87, array[1] = 'casa' y array[2] = true.
+
+Un arreglo es muy útil cuando deseamos almacenar una cierta cantidad de elementos relacionados ya que en lugar de almacenar cada elemento en una variable, usamos solo el array y así
+nos ahorramos estar trabajando con tantas variables, además de que se vuelve mucho más facil manipularlos usando iteraciones mediante el for o el while.
+
+ Otra ventaja del arreglo es que posee métodos para manejarlos, por ejemplo push para insertar elementos al final del arreglo, pop para sacar elementos al final del arreglo y length
+ para hallar el número de elementos del arreglo, entre otros.
