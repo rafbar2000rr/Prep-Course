@@ -1,0 +1,44 @@
+Preguntas JSIV
+
+Objetos: un objeto es todo aquello que posee propiedades -es decir atributos o características- y/o métodos que son acciones que puede realizar el objeto o que se
+pueden realizar sobre el objeto. Un objeto puede ser algo material o no material. Por ejemplo el objeto globo posee las propiedades tamaño, color, marca y los métodos 
+inflar, desinflar. 
+
+
+Propiedades: son los atributos que posee un objeto. Por ejemplo el objeto automóvil puede tener como propiedades: color, marca, precio, año de fabricación, etc.
+Dentro del objeto, se representa así:
+color: 'rojo',
+marca: 'BMW',
+precio: 50000,
+añoFabricacion: 2020,
+
+
+
+Métodos: son funciones que posee un objeto. Las funciones realizan una determinada acción como puede ser por ejemplo imprimir en la pantalla un valor. 
+Por ejemplo tenemos el método imprimir: 
+imprimir:function(valor){
+    console.log(valor);
+}
+Para llamar a la función se escribe el nombre del objeto seguido del método ya sea en notación de punto o corchetes. Por ejemplo:
+objeto.imprimir(570);
+
+
+
+Bucle for...in: se utiliza para realizar una acción sobre las propiedades de un objeto. La expresión for (var propiedad in objeto) significa que para cada 
+propiedad del objeto se va a realizar alguna acción. Por ejemplo:
+for(var propiedad in objeto{
+    console.log(propiedad);
+}
+hará que se impriman todos los nombres de las propiedades del objeto.
+
+
+
+Notación de puntos vs notación de corchetes: para asignarle un valor a una propiedad o para asignar el valor de la propiedad a una variable, existen dos notaciones.
+Notación de puntos: tiene la forma objeto.propiedad, donde la propiedad puede ser una secuencia de caracteres que no comience con un número.
+Por ejemplo, alumno.nombre es válido pero alumno.1nombre no lo es.
+Notación de corchetes: tiene la forma objeto[propiedad] pero en este caso la propiedad puede ser cuaquier secuencia de caracteres. En el caso que se quiera usar la 
+propiedad enviada como argumento a una función, deberá usarse la notación de corchetes. Por ejemplo:
+function agregarPropiedad(alumno, codigo){
+    alumno[codigo]='19832307';
+}
+
