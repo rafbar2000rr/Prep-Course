@@ -1,0 +1,20 @@
+Preguntas JSV
+
+Prototype: un prototipo es un conjunto de propiedades y métodos -es decir funciones-, las cuales pueden ser usadas por los objetos que guarden relación entre sí. 
+Por ejemplo si tenemos los objetos alumno1, alumno2 y alumno3, dado que guardan relación entre sí ya que todos tienen las mismas propiedades como nombre, dirección,
+teléfono y los mismos métodos como calcularPromedio(), conviene que esos objetos tengan un prototipo. La ventaja es que así se evita tener que definir para cada objeto 
+los mismos métodos, con el consiguiente ahorro de memoria.
+
+
+
+Constructors: el constructor de una clase es un método especial para asignar  los valores iniciales de las propiedades de los objetos que se van a crear de esa clase.
+Por ejemplo, tenemos la clase Alumno:
+Class Alumno{
+    constructor(nombre, nota){
+        this.nombre=nombre;
+        this.direccion=direccion;
+    }
+}
+var alumno1= new Alumno('Jorge',12);
+
+En este caso al crearse el objeto alumno1, el constructor le asigna su nombre, Jorge y su nota, 12.
