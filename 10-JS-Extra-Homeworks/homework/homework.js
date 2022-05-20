@@ -15,8 +15,6 @@ function deObjetoAmatriz(objeto){
   var arreglo= [];
   arreglo= Object.entries(objeto);
   return arreglo;
-  
-  
 }
 
 
@@ -74,7 +72,6 @@ function asAmirror(str) {
   }
 
   return cadena.join('').split(' ').reverse().join(' ');
-  
 } 
 
 
@@ -90,8 +87,6 @@ if(numero===numeroReverso){
 }else{
     return 'No es capicua';
 }
-
-
 }
 
 
@@ -104,9 +99,6 @@ var array=cadena.split('');
 var arrayFiltrado=array.filter(elemento =>
   elemento!=='a' && elemento!=='b' && elemento !=='c')
 return  arrayFiltrado.join('');
-
-  
-  
 }
 
 
@@ -129,7 +121,6 @@ function buscoInterseccion(arreglo1, arreglo2){
 
   var arrayInt = arreglo1.filter(valor => arreglo2.includes(valor))
   return arrayInt;
-  
 }
 
 
