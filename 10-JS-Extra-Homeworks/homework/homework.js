@@ -57,8 +57,6 @@ function capToFront(s) {
   }
 
 
-
-
 function asAmirror(str) {
   //La función recibe una frase. 
   //Escribe una función que tome la frase recibida y la devuelva de modo tal que se pueda leer de izquierda a derecha 
